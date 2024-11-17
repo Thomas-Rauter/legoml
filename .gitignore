@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# Allow the .gitignore file itself
+!.gitignore
+
+# Allow all subdirectories and files within 'legoml'
+!legoml/
+!legoml/**
+
+# Allow specific files in the root directory
+!setup.py
+!README.md
+!LICENSE
+!requirements.txt
+
+# Allow the 'tests' directory
+!tests/
+!tests/**
+
+# Allow example scripts or notebooks
+!examples/
+!examples/**
+
+# Explicitly ignore the .idea directory
+.idea/
