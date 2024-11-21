@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="legoml",
-    version="0.1.0",
+    version="0.1.1",
     author="Thomas Rauter",
     author_email="rauterthomas0@gmail.com",
     description="A modular and flexible library for core machine learning"
@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "matplotlib>=3.0.0",
-        "IPython",
+        "ipython>=8.0.0"
     ],
     extras_require={
         "torch": ["torch>=2.4.0"],  # PyTorch-related extras
