@@ -1,8 +1,18 @@
 # LegoML
 
+<table>
+<tr>
+<td style="text-align: left; vertical-align: middle;">
 LegoML is a modular library for machine learning workflows. Inspired by Lego 
 blocks, it aims to combine maximum usability with flexibility, enabling you to
 quickly build robust solutions.
+</td>
+<td style="text-align: right; vertical-align: middle;">
+<img src="logo/legoml_logo.png" alt="LegoML Logo" width="300" height="200" />
+</td>
+</tr>
+</table>
+
 
 ## Features
 - Generalized training loops
@@ -16,9 +26,9 @@ Install directly from GitHub:
 pip install git+https://github.com/Thomas-Rauter/legoml.git@0.1.0
 ```
 
-Install into a Jupyter notebook:
+Install legoml with extras
 ```bash
-!pip install git+https://github.com/Thomas-Rauter/legoml.git@0.1.0
+pip install git+https://github.com/Thomas-Rauter/legoml.git@0.1.0[torch,tensorflow]
 ```
 
 # Usage

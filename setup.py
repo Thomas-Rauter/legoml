@@ -12,16 +12,13 @@ setup(
     url="https://github.com/Thomas-Rauter/legoml",
     packages=find_packages(),
     install_requires=[
-        "filelock>=3.15.0",
-        "fsspec>=2024.9.0",
-        "Jinja2>=3.0.0",
-        "MarkupSafe>=3.0.0",
-        "mpmath>=1.2.0",
-        "networkx>=3.3.0",
-        "sympy>=1.12.0",
-        "torch>=2.4.0",
-        "typing_extensions>=4.11.0"
+        "matplotlib>=3.0.0",
+        "IPython",
     ],
+    extras_require={
+        "torch": ["torch>=2.4.0"],  # PyTorch-related extras
+        "tensorflow": ["tensorflow>=2.13.0"],  # TensorFlow-related extras
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
