@@ -15,6 +15,7 @@
 !requirements.txt
 
 # Allow the logo for the GitHub README section
+!logo/
 !logo/legoml_logo.png
 
 # Allow the 'tests' directory
