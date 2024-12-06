@@ -28,3 +28,17 @@
 
 # Explicitly ignore the .idea directory
 .idea/
+
+# Allow the docs directory
+!docs/
+
+# Ignore the build directory within docs
+docs/build/
+
+# Allow the source directory and its contents
+!docs/source/
+!docs/source/**
+
+# Ignore any potential temporary files
+*.tmp
+*.log
