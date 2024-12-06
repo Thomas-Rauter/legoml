@@ -8,7 +8,8 @@
     quickly build robust solutions.
   </td>
   <td style="text-align: right; vertical-align: middle; width: 40%;">
-    <img src="logo/legoml_logo.png" alt="LegoML Logo" style="width: 100%; max-width: 300px; height: auto;" />
+    <img src="docs/source/_static/legoml_logo.png" alt="LegoML Logo" 
+     style="width: 100%; max-width: 200px; height: auto;" />
   </td>
 </tr>
 </table>
